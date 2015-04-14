@@ -1,0 +1,74 @@
+.container .main-wrapper .content .content-siderbar {
+  position: fixed;
+  left: 150px;
+  top: 60px;
+  width: 92px;
+  background-color: #f9f9f9;
+  height: 20000px;
+}
+.container .main-wrapper .content .content-siderbar h2 {
+  color: #3a362b;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 0;
+}
+.container .main-wrapper .content .content-siderbar ul li a {
+  font-size: 10px;
+  color: #4f4b40;
+  padding-left: 20px;
+  height: 24px;
+  display: block;
+  line-height: 24px;
+}
+.container .main-wrapper .content .content-siderbar ul li a.active {
+  background-color: #ececec;
+}
+.container .main-wrapper .content .content-siderbar ul li a:hover {
+  background-color: #ececec;
+}
+.container .main-wrapper .content .base-info {
+  margin-left: 92px;
+  padding: 23px 34px;
+}
+.container .main-wrapper .content .base-info .title-style1 {
+  background-color: #f9f9f9;
+  height: 22px;
+  padding-left: 12px;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: normal;
+}
+.container .main-wrapper .content .base-info .form-table {
+  width: 100%;
+  margin: 10px 0;
+}
+.container .main-wrapper .content .base-info .form-table tr td {
+  color: #333333;
+  padding: 4px 0;
+}
+.container .main-wrapper .content .base-info .form-table tr td label {
+  vertical-align: middle;
+}
+.container .main-wrapper .content .base-info .form-table tr td label input[type="radio"] {
+  vertical-align: bottom;
+}
+.container .main-wrapper .content .base-info .form-table tr td:nth-child(1) {
+  width: 120px;
+  text-align: right;
+  padding-right: 5px;
+}
+.container .main-wrapper .content .base-info input[type='text'] {
+  height: 21px;
+  width: 200px;
+  border: 1px solid #ececec;
+  padding-left: 10px;
+}
+.container .main-wrapper .content .btn {
+  width: 100px;
+  height: 23px;
+  background-color: #f39c11;
+  border: 0;
+  color: #fff;
+  margin-left: 130px;
+  cursor: pointer;
+}

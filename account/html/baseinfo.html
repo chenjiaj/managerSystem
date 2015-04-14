@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>课程管理系统</title>
+    <link type="text/css" rel="stylesheet" href="../../common/css/base.css">
+    <link type="text/css" rel="stylesheet" href="../../common/css/jquery-ui.css">
+    <link type="text/css" rel="stylesheet" href="../css/baseinfo.css">
+
+</head>
+
+<body>
+<!--[if lt IE 9]>
+<div id="warn-brower">
+    您正在使用的课程管理系统<strong>不支持</strong>IE低级浏览器，为了更好的试用ERP虚拟运营系统，请立即
+    <a class="blue" href="http://windows.microsoft.com/zh-cn/internet-explorer/download-ie" target="_blank">
+        升级IE浏览器</a>或者用更快更安全的 <a class="blue" href="https://www.google.com/intl/zh-CN/chrome/browser/?hl=zh-CN" target="_blank">
+    谷歌浏览器Chrome</a> 。
+</div>
+<![endif]-->
+<!---->
+<div class="container">
+    <!--左边侧边栏-->
+    <div class="siderbar">
+        <h1 class="logo">课程管理系统</h1>
+        <!--账号基本信息-->
+        <div class="account-info">
+            <div class="img-wrapper">
+                <img src="../../common/img/head.png" alt="头像"/>
+            </div>
+            <div class="username">苏丹</div>
+
+            <ul class="list clearfix">
+                <li class="email">
+                    <a href="#">
+                        <span class="icon-img-user icon-img"></span>
+                        <span class="red-ball"></span><!--小圆点，没有邮件时,不显示次行代码-->
+                    </a>
+                </li>
+                <li class="line"></li>
+                <li>
+                    <a href="#">
+                        <span class="icon-img-setting icon-img"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!--日历-->
+        <div class="date">
+
+        </div>
+        <!--日程-->
+
+        <div class="schedule">
+            <h3 class="title">日程安排</h3>
+            <div class="table-wrapper">
+                <table>
+                    <tr>
+                        <td>9:00</td>
+                        <td>年级集中</td>
+                    </tr>
+                    <tr>
+                        <td>15:00</td>
+                        <td>会议</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="footer">
+                <a href="#">查看详情</a>
+            </div>
+        </div>
+    </div>
+
+    <!--右方主要内容-->
+    <div class="main-wrapper">
+        <!--头部-->
+        <header class="header">
+            <ul class="menu clearfix">
+                <!--在选择的li上面 加上 class="active"-->
+                <li>
+                    <a href="#">
+                        <span class="icon-img icon-img-timetable"></span>
+                        <h2 class="menu-text">课表设置</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon-img icon-img-attendance"></span>
+                        <h2 class="menu-text">课堂考勤</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon-img icon-img-seat"></span>
+                        <h2 class="menu-text">座位管理</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon-img icon-img-ask"></span>
+                        <h2 class="menu-text">请假审批</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon-img icon-img-task"></span>
+                        <h2 class="menu-text">作业管理</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon-img icon-img-data"></span>
+                        <h2 class="menu-text">教学资料</h2>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon-img icon-img-interactive"></span>
+                        <h2 class="menu-text">教学互动</h2>
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+        <!--右面部分-->
+        <div class="content">
+            <div class="content-siderbar">
+                <h2>账号设置</h2>
+                <ul>
+                    <li><a href="#" class="active">基本信息</a></li><!--在选中的菜单li下的a标签内添加class="active"-->
+                    <li><a href="#">修改头像</a></li>
+                    <li><a href="#">修改密码</a></li>
+                </ul>
+            </div>
+
+            <div class="base-info">
+                <form>
+                    <h3 class="title-style1">基本资料</h3>
+                    <table class="form-table">
+                        <tr>
+                            <td>用户名：</td>
+                            <td><input type="text" value="sd_0323" name=""/></td>
+                        </tr>
+                        <tr>
+                            <td>姓名：</td>
+                            <td><input type="text" value="苏丹" name=""/></td>
+                        </tr>
+                        <tr>
+                            <td>性别：</td>
+                            <td>
+                                <label><input type="radio" name="sex"> 女 </label>
+                                <label><input type="radio" name="sex"> 男 </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>生日：</td>
+                            <td>
+                                <label>
+                                    <select>
+                                        <option>1993</option>
+                                    </select>
+                                    年
+                                </label>
+                                <label>
+                                    <select>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                    </select>
+                                    月
+                                </label>
+                                <label>
+                                    <select>
+                                        <option>1</option>
+                                    </select>
+                                    日
+                                </label>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <h3 class="title-style1">学习信息</h3>
+                    <table class="form-table">
+                        <tr>
+                            <td>学校名称：</td>
+                            <td><input type="text" value="重庆邮电大学" name=""/></td>
+                        </tr>
+                        <tr>
+                            <td>院系：</td>
+                            <td><input type="text" value="" name=""/></td>
+                        </tr>
+                        <tr>
+                            <td>教师代码：</td>
+                            <td>
+                                <input type="text" value="" name=""/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>职务：</td>
+                            <td>
+                                <input type="text" value="" name=""/>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <h3 class="title-style1">基本资料</h3>
+                    <table class="form-table">
+                        <tr>
+                            <td>电话：</td>
+                            <td><input type="text" value="" name=""/></td>
+                        </tr>
+                        <tr>
+                            <td>邮箱：</td>
+                            <td><input type="text" value="" name=""/></td>
+                        </tr>
+
+                    </table>
+
+                    <button class="btn" type="submit">确认修改</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../../common/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../../common/js/jquery-ui-datepicker.js"></script>
+<script type="text/javascript">
+    (function(){
+        $(".date").datepicker();
+    })();
+</script>
+</body>
+</html>
